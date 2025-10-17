@@ -35,6 +35,7 @@ export function LikertScale({
               size="sm"
               w={45}
               h={45}
+              p={0}
               disabled={disabled}
               onClick={() => onChange(scaleValue)}
               onMouseEnter={() => setHoveredValue(scaleValue)}
