@@ -1,4 +1,4 @@
-import { AppShell, Burger, Group, MantineProvider, Title } from "@mantine/core";
+import { AppShell, MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import { useDisclosure } from "@mantine/hooks";
 import { Outlet } from "@tanstack/react-router";
@@ -6,7 +6,7 @@ import { Provider as JotaiProvider } from "jotai";
 import { Sidebar } from "./components/sidebar";
 
 function App() {
-  const [opened, { toggle }] = useDisclosure();
+  const [opened] = useDisclosure();
 
   return (
     <JotaiProvider>

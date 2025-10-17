@@ -10,8 +10,8 @@ import {
 } from "@mantine/core";
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useEffect } from "react";
-import { countAllItems } from "../utils/questionaire-utils";
 import { loadAllQuestionnaires } from "../utils/questionnaire-loader";
+import { countAllItems } from "../utils/questionnaire-utils";
 
 const questionnaires = await loadAllQuestionnaires();
 

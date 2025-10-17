@@ -1,5 +1,5 @@
+import { Button, Group, Stack } from "@mantine/core";
 import { useState } from "react";
-import { Group, Text, Button, Stack, Box } from "@mantine/core";
 import type { LikertAnswer } from "../../types";
 
 interface LikertScaleProps {

@@ -9,8 +9,8 @@ import {
 } from "@mantine/core";
 import { IconJumpRope } from "@tabler/icons-react";
 import { Link } from "@tanstack/react-router";
-import { countAllItems } from "../utils/questionaire-utils";
 import { loadAllQuestionnaires } from "../utils/questionnaire-loader";
+import { countAllItems } from "../utils/questionnaire-utils";
 
 const questionnaires = await loadAllQuestionnaires();
 
