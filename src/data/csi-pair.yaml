@@ -1,0 +1,128 @@
+id: csi-pair
+name: Creativity Support Index (Pairwise Comparisons)
+description: The source of creativity support comparison section of the CSI. For each pair, select the factor that was more important to your overall creative experience.
+pages:
+  - sections:
+      - title: Sources of Creativity Support
+        randomize: true
+        items:
+          - id: csi_pair1
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Enjoyment", "Exploration"]
+              required: true
+          - id: csi_pair2
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Enjoyment", "Expressiveness"]
+              required: true
+          - id: csi_pair3
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Enjoyment", "Immersion"]
+              required: true
+          - id: csi_pair4
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Enjoyment", "Results Worth Effort"]
+              required: true
+          - id: csi_pair5
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Enjoyment", "Collaboration"]
+              required: true
+          - id: csi_pair6
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Exploration", "Expressiveness"]
+              required: true
+          - id: csi_pair7
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Exploration", "Immersion"]
+              required: true
+          - id: csi_pair8
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Exploration", "Results Worth Effort"]
+              required: true
+          - id: csi_pair9
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Exploration", "Collaboration"]
+              required: true
+          - id: csi_pair10
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Expressiveness", "Immersion"]
+              required: true
+          - id: csi_pair11
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Expressiveness", "Collaboration"]
+              required: true
+          - id: csi_pair12
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Expressiveness", "Collaboration"]
+              required: true
+          - id: csi_pair13
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Immersion", "Collaboration"]
+              required: true
+          - id: csi_pair14
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Immersion", "Collaboration"]
+              required: true
+          - id: csi_pair15
+            question:
+              type: question
+              value: Which was more important to your creative experience?
+            answer:
+              type: selection
+              items: ["Results Worth Effort", "Enjoyment"]
+              required: true

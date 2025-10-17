@@ -1,0 +1,128 @@
+id: tlx-pair
+name: NASA-TLX (Pairwise Comparisons)
+description: The source of workload comparison section of NASA-TLX. For each pair, select the factor that contributed more to your workload.
+pages:
+  - sections:
+      - title: Sources of Workload
+        randomize: true
+        items:
+          - id: tlx_pair1
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Mental Demand", "Physical Demand"]
+              required: true
+          - id: tlx_pair2
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Mental Demand", "Temporal Demand"]
+              required: true
+          - id: tlx_pair3
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Mental Demand", "Performance"]
+              required: true
+          - id: tlx_pair4
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Mental Demand", "Effort"]
+              required: true
+          - id: tlx_pair5
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Mental Demand", "Frustration"]
+              required: true
+          - id: tlx_pair6
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Physical Demand", "Temporal Demand"]
+              required: true
+          - id: tlx_pair7
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Physical Demand", "Performance"]
+              required: true
+          - id: tlx_pair8
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Physical Demand", "Effort"]
+              required: true
+          - id: tlx_pair9
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Physical Demand", "Frustration"]
+              required: true
+          - id: tlx_pair10
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Temporal Demand", "Performance"]
+              required: true
+          - id: tlx_pair11
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Temporal Demand", "Effort"]
+              required: true
+          - id: tlx_pair12
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Temporal Demand", "Frustration"]
+              required: true
+          - id: tlx_pair13
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Performance", "Effort"]
+              required: true
+          - id: tlx_pair14
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Performance", "Frustration"]
+              required: true
+          - id: tlx_pair15
+            question:
+              type: question
+              value: Which was a more significant source of workload?
+            answer:
+              type: selection
+              items: ["Effort", "Frustration"]
+              required: true

@@ -1,0 +1,287 @@
+id: attrakdiff
+name: AttrakDiff 2
+description: A 28-item semantic differential questionnaire that measures the user experience of a product by assessing its pragmatic (usability) and hedonic (stimulation, identity) qualities, as well as its overall attractiveness.
+pages:
+  - sections:
+      - title: Pragmatic Quality (PQ)
+        randomize: true
+        items:
+          - id: ad_pq1
+            question:
+              type: bipolar
+              left: simple
+              right: complicated
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_pq2
+            question:
+              type: bipolar
+              left: practical
+              right: impractical
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_pq3
+            question:
+              type: bipolar
+              left: cumbersome
+              right: straightforward
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_pq4
+            question:
+              type: bipolar
+              left: predictable
+              right: unpredictable
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_pq5
+            question:
+              type: bipolar
+              left: confusing
+              right: clearly structured
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_pq6
+            question:
+              type: bipolar
+              left: unruly
+              right: manageable
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Hedonic Quality - Stimulation (HQ-S)
+        randomize: true
+        items:
+          - id: ad_hqs1
+            question:
+              type: bipolar
+              left: inventive
+              right: conventional
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqs2
+            question:
+              type: bipolar
+              left: unimaginative
+              right: creative
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqs3
+            question:
+              type: bipolar
+              left: bold
+              right: cautious
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqs4
+            question:
+              type: bipolar
+              left: innovative
+              right: conservative
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqs5
+            question:
+              type: bipolar
+              left: dull
+              right: captivating
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqs6
+            question:
+              type: bipolar
+              left: undemanding
+              right: challenging
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqs7
+            question:
+              type: bipolar
+              left: novel
+              right: ordinary
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Hedonic Quality - Identity (HQ-I)
+        randomize: true
+        items:
+          - id: ad_hqi1
+            question:
+              type: bipolar
+              left: human
+              right: technical
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqi2
+            question:
+              type: bipolar
+              left: isolating
+              right: connective
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqi3
+            question:
+              type: bipolar
+              left: professional
+              right: unprofessional
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqi4
+            question:
+              type: bipolar
+              left: stylish
+              right: tacky
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqi5
+            question:
+              type: bipolar
+              left: cheap
+              right: premium
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqi6
+            question:
+              type: bipolar
+              left: alienating
+              right: integrating
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_hqi7
+            question:
+              type: bipolar
+              left: separates me from people
+              right: brings me closer to people
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Attractiveness (ATT)
+        randomize: true
+        items:
+          - id: ad_att1
+            question:
+              type: bipolar
+              left: pleasant
+              right: unpleasant
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_att2
+            question:
+              type: bipolar
+              left: ugly
+              right: attractive
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_att3
+            question:
+              type: bipolar
+              left: likeable
+              right: disagreeable
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_att4
+            question:
+              type: bipolar
+              left: unpresentable
+              right: presentable
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_att5
+            question:
+              type: bipolar
+              left: rejecting
+              right: inviting
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_att6
+            question:
+              type: bipolar
+              left: good
+              right: bad
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: ad_att7
+            question:
+              type: bipolar
+              left: repelling
+              right: appealing
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true

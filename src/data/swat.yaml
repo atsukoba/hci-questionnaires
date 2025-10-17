@@ -1,0 +1,31 @@
+id: swat
+name: Subjective Workload Assessment Technique
+description: The event-scoring portion of SWAT. It measures subjective workload on three dimensions (Time Load, Mental Effort Load, Psychological Stress Load), each rated on a 3-point scale. This is used after a scale development phase (card sorting) has been completed.
+pages:
+  - sections:
+      - title: Workload Assessment
+        items:
+          - id: swat_time
+            question:
+              type: question
+              value: Time Load
+            answer:
+              type: selection
+              items: ["Low", "Fair", "High"]
+              required: true
+          - id: swat_effort
+            question:
+              type: question
+              value: Mental Effort Load
+            answer:
+              type: selection
+              items: ["Low", "Fair", "High"]
+              required: true
+          - id: swat_stress
+            question:
+              type: question
+              value: Psychological Stress Load
+            answer:
+              type: selection
+              items: ["Low", "Fair", "High"]
+              required: true

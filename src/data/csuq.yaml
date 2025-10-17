@@ -1,0 +1,184 @@
+id: csuq
+name: Computer System Usability Questionnaire
+description: A 19-item questionnaire for assessing overall user satisfaction with a computer system, structured into three subscales System Usefulness, Information Quality, and Interface Quality.
+pages:
+  - sections:
+      - title: System Usefulness
+        items:
+          - id: csuq1
+            question:
+              type: agreement
+              value: Overall, I am satisfied with how easy it is to use this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq2
+            question:
+              type: agreement
+              value: It was simple to use this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq3
+            question:
+              type: agreement
+              value: I can effectively complete my work using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq4
+            question:
+              type: agreement
+              value: I am able to complete my work quickly using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq5
+            question:
+              type: agreement
+              value: I am able to efficiently complete my work using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq6
+            question:
+              type: agreement
+              value: I feel comfortable using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq7
+            question:
+              type: agreement
+              value: It was easy to learn to use this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq8
+            question:
+              type: agreement
+              value: I believe I became productive quickly using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Information Quality
+        items:
+          - id: csuq9
+            question:
+              type: agreement
+              value: The system gives error messages that clearly tell me how to fix problems.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq10
+            question:
+              type: agreement
+              value: Whenever I make a mistake using the system, I recover easily and quickly.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq11
+            question:
+              type: agreement
+              value: The information (such as online help, on-screen messages, and other documentation) provided with this system is clear.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq12
+            question:
+              type: agreement
+              value: It is easy to find the information I needed.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq13
+            question:
+              type: agreement
+              value: The information provided for the system is easy to understand.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq14
+            question:
+              type: agreement
+              value: The information is effective in helping me complete the tasks and scenarios.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq15
+            question:
+              type: agreement
+              value: The organization of information on the system screens is clear.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Interface Quality
+        items:
+          - id: csuq16
+            question:
+              type: agreement
+              value: The interface of this system is pleasant.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq17
+            question:
+              type: agreement
+              value: I like using the interface of this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: csuq18
+            question:
+              type: agreement
+              value: This system has all the functions and capabilities I expect it to have.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Overall Satisfaction
+        items:
+          - id: csuq19
+            question:
+              type: agreement
+              value: Overall, I am satisfied with this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true

@@ -1,0 +1,115 @@
+id: csi
+name: Creativity Support Index
+description: A psychometric survey for evaluating how well a tool supports creative work, inspired by the NASA-TLX. It measures six dimensions Exploration, Expressiveness, Immersion, Enjoyment, Results Worth Effort, and Collaboration.
+pages:
+  - sections:
+      - title: Creativity Support Ratings
+        items:
+          - id: csi_enjoy1
+            question:
+              type: agreement
+              value: I enjoyed using the system or tool.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_enjoy2
+            question:
+              type: agreement
+              value: The experience was fun.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_explore1
+            question:
+              type: agreement
+              value: I was able to explore many different ideas, options, or outcomes.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_explore2
+            question:
+              type: agreement
+              value: The system or tool encouraged me to explore.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_express1
+            question:
+              type: agreement
+              value: I was able to be very creative while using the system or tool.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_express2
+            question:
+              type: agreement
+              value: The system or tool allowed me to be expressive.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_immerse1
+            question:
+              type: agreement
+              value: I was so involved in my work that I lost track of time.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_immerse2
+            question:
+              type: agreement
+              value: My attention was fully tuned to the activity, and I was not aware of things around me.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_results1
+            question:
+              type: agreement
+              value: The results I produced were worth the effort I put in.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_results2
+            question:
+              type: agreement
+              value: I am satisfied with what I created.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_collab1
+            question:
+              type: agreement
+              value: The system or tool helped us to work together.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true
+          - id: csi_collab2
+            question:
+              type: agreement
+              value: We were able to build on each other's ideas.
+            answer:
+              type: likert
+              min: 1
+              max: 10
+              required: true

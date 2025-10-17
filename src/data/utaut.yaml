@@ -1,0 +1,121 @@
+id: utaut
+name: Unified Theory of Acceptance and Use of Technology
+description: A comprehensive model that explains user intentions to use an information system and subsequent usage behavior. It integrates eight previous models and identifies four key constructs Performance Expectancy, Effort Expectancy, Social Influence, and Facilitating Conditions.
+pages:
+  - sections:
+      - title: Performance Expectancy
+        items:
+          - id: utaut_pe1
+            question:
+              type: agreement
+              value: I would find the system useful in my job.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_pe2
+            question:
+              type: agreement
+              value: Using the system enables me to accomplish tasks more quickly.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_pe3
+            question:
+              type: agreement
+              value: Using the system increases my productivity.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Effort Expectancy
+        items:
+          - id: utaut_ee1
+            question:
+              type: agreement
+              value: My interaction with the system is clear and understandable.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_ee2
+            question:
+              type: agreement
+              value: It is easy for me to become skillful at using the system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_ee3
+            question:
+              type: agreement
+              value: I find the system easy to use.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Social Influence
+        items:
+          - id: utaut_si1
+            question:
+              type: agreement
+              value: People who are important to me think that I should use the system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_si2
+            question:
+              type: agreement
+              value: People who influence my behavior think that I should use the system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_si3
+            question:
+              type: agreement
+              value: The senior management of this business has been helpful in the use of the system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Facilitating Conditions
+        items:
+          - id: utaut_fc1
+            question:
+              type: agreement
+              value: I have the resources necessary to use the system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_fc2
+            question:
+              type: agreement
+              value: I have the knowledge necessary to use the system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: utaut_fc3
+            question:
+              type: agreement
+              value: A specific person (or group) is available for assistance with system difficulties.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true

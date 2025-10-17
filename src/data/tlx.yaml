@@ -1,0 +1,79 @@
+id: tlx
+name: NASA-TLX (Rating Scales)
+description: The rating scale portion of the NASA Task Load Index, assessing subjective workload across six dimensions. Each dimension is rated on a continuous scale.
+pages:
+  - sections:
+      - title: NASA-TLX Ratings
+        items:
+          - id: tlx_md
+            question:
+              type: question
+              value: "Mental Demand: How mentally demanding was the task?"
+            answer:
+              type: vas
+              min: 0
+              max: 100
+              step: 5
+              minLabel: Very Low
+              maxLabel: Very High
+              required: true
+          - id: tlx_pd
+            question:
+              type: question
+              value: "Physical Demand: How physically demanding was the task?"
+            answer:
+              type: vas
+              min: 0
+              max: 100
+              step: 5
+              minLabel: Very Low
+              maxLabel: Very High
+              required: true
+          - id: tlx_td
+            question:
+              type: question
+              value: "Temporal Demand: How hurried or rushed was the pace of the task?"
+            answer:
+              type: vas
+              min: 0
+              max: 100
+              step: 5
+              minLabel: Very Low
+              maxLabel: Very High
+              required: true
+          - id: tlx_p
+            question:
+              type: question
+              value: "Performance: How successful were you in accomplishing what you were asked to do?"
+            answer:
+              type: vas
+              min: 0
+              max: 100
+              step: 5
+              minLabel: Perfect
+              maxLabel: Failure
+              required: true
+          - id: tlx_e
+            question:
+              type: question
+              value: "Effort: How hard did you have to work to accomplish your level of performance?"
+            answer:
+              type: vas
+              min: 0
+              max: 100
+              step: 5
+              minLabel: Very Low
+              maxLabel: Very High
+              required: true
+          - id: tlx_f
+            question:
+              type: question
+              value: "Frustration: How insecure, discouraged, irritated, stressed, and annoyed were you?"
+            answer:
+              type: vas
+              min: 0
+              max: 100
+              step: 5
+              minLabel: Very Low
+              maxLabel: Very High
+              required: true

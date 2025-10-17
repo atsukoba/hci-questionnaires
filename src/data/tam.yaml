@@ -1,0 +1,117 @@
+id: tam
+name: Technology Acceptance Model
+description: Measures user acceptance based on two key constructs, Perceived Usefulness and Perceived Ease of Use. Typically consists of 12 items on a 7-point Likert scale.
+pages:
+  - sections:
+      - title: Perceived Usefulness
+        items:
+          - id: tam_pu1
+            question:
+              type: agreement
+              value: Using this system would enable me to accomplish tasks more quickly.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_pu2
+            question:
+              type: agreement
+              value: Using this system would improve my job performance.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_pu3
+            question:
+              type: agreement
+              value: Using this system would increase my productivity.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_pu4
+            question:
+              type: agreement
+              value: Using this system would enhance my effectiveness on the job.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_pu5
+            question:
+              type: agreement
+              value: Using this system would make it easier to do my job.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_pu6
+            question:
+              type: agreement
+              value: I would find this system useful in my job.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Perceived Ease of Use
+        items:
+          - id: tam_peou1
+            question:
+              type: agreement
+              value: Learning to operate this system would be easy for me.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_peou2
+            question:
+              type: agreement
+              value: I would find it easy to get this system to do what I want it to do.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_peou3
+            question:
+              type: agreement
+              value: My interaction with this system would be clear and understandable.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_peou4
+            question:
+              type: agreement
+              value: I would find this system to be flexible to interact with.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_peou5
+            question:
+              type: agreement
+              value: It would be easy for me to become skillful at using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: tam_peou6
+            question:
+              type: agreement
+              value: I would find this system easy to use.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true

@@ -1,0 +1,157 @@
+id: pssuq
+name: Post-Study System Usability Questionnaire
+description: A 16-item questionnaire designed for scenario-based usability studies, measuring satisfaction across three subscales System Usefulness, Information Quality, and Interface Quality.
+pages:
+  - sections:
+      - title: System Usefulness
+        items:
+          - id: pssuq1
+            question:
+              type: agreement
+              value: Overall, I am satisfied with how easy it is to use this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq2
+            question:
+              type: agreement
+              value: It was simple to use this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq3
+            question:
+              type: agreement
+              value: I was able to complete the tasks and scenarios quickly using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq4
+            question:
+              type: agreement
+              value: I felt comfortable using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq5
+            question:
+              type: agreement
+              value: It was easy to learn to use this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq6
+            question:
+              type: agreement
+              value: I believe I could become productive quickly using this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Information Quality
+        items:
+          - id: pssuq7
+            question:
+              type: agreement
+              value: The system gave error messages that clearly told me how to fix problems.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq8
+            question:
+              type: agreement
+              value: Whenever I made a mistake using the system, I could recover easily and quickly.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq9
+            question:
+              type: agreement
+              value: The information (such as online help, on-screen messages, and other documentation) provided with this system was clear.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq10
+            question:
+              type: agreement
+              value: It was easy to find the information I needed.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq11
+            question:
+              type: agreement
+              value: The information was effective in helping me complete the tasks and scenarios.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq12
+            question:
+              type: agreement
+              value: The organization of information on the system screens was clear.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Interface Quality
+        items:
+          - id: pssuq13
+            question:
+              type: agreement
+              value: The interface of this system was pleasant.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq14
+            question:
+              type: agreement
+              value: I liked using the interface of this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+          - id: pssuq15
+            question:
+              type: agreement
+              value: This system has all the functions and capabilities I expect it to have.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
+      - title: Overall Satisfaction
+        items:
+          - id: pssuq16
+            question:
+              type: agreement
+              value: Overall, I am satisfied with this system.
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true

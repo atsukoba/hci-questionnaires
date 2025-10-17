@@ -1,0 +1,157 @@
+id: quis
+name: Questionnaire for User Interaction Satisfaction
+description: A detailed, hierarchical questionnaire assessing user satisfaction with a system's interface. It primarily uses 9-point bipolar adjective scales to capture affective and qualitative aspects of the user experience.
+pages:
+  - sections:
+      - title: Overall Reaction to the Software
+        items:
+          - id: quis_overall1
+            question:
+              type: bipolar
+              left: terrible
+              right: wonderful
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_overall2
+            question:
+              type: bipolar
+              left: difficult
+              right: easy
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_overall3
+            question:
+              type: bipolar
+              left: frustrating
+              right: satisfying
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_overall4
+            question:
+              type: bipolar
+              left: inadequate power
+              right: adequate power
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_overall5
+            question:
+              type: bipolar
+              left: dull
+              right: stimulating
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_overall6
+            question:
+              type: bipolar
+              left: rigid
+              right: flexible
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+      - title: Screen
+        items:
+          - id: quis_screen1
+            question:
+              type: bipolar
+              left: hard to read
+              right: easy to read
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_screen2
+            question:
+              type: bipolar
+              left: cluttered
+              right: organized
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+      - title: Terminology and System Information
+        items:
+          - id: quis_term1
+            question:
+              type: bipolar
+              left: inconsistent
+              right: consistent
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_term2
+            question:
+              type: question
+              value: Computer terminology is related to the task you are doing
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              minLabel: never
+              maxLabel: always
+              required: true
+      - title: Learning
+        items:
+          - id: quis_learn1
+            question:
+              type: bipolar
+              left: difficult
+              right: easy
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_learn2
+            question:
+              type: question
+              value: Tasks can be performed in a straight-forward manner
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              minLabel: never
+              maxLabel: always
+              required: true
+      - title: System Capabilities
+        items:
+          - id: quis_syscap1
+            question:
+              type: bipolar
+              left: too slow
+              right: fast enough
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true
+          - id: quis_syscap2
+            question:
+              type: bipolar
+              left: unreliable
+              right: reliable
+            answer:
+              type: likert
+              min: 1
+              max: 9
+              required: true

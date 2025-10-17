@@ -1,0 +1,465 @@
+id: kdocs
+name: Kaufman Domains of Creativity Scale
+description: A 50-item self-report scale measuring creative self-perceptions across five domains Self/Everyday, Scholarly, Performance, Mechanical/Scientific, and Artistic.
+pages:
+  - sections:
+      - title: Self/Everyday Creativity
+        items:
+          - id: kdocs1
+            question:
+              type: question
+              value: Finding something fun to do when I have no money.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs2
+            question:
+              type: question
+              value: Helping other people cope with a difficult situation.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs3
+            question:
+              type: question
+              value: Teaching someone how to do something.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs4
+            question:
+              type: question
+              value: Maintaining a good balance between my work and my personal life.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs5
+            question:
+              type: question
+              value: Understanding how to make myself happy.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs6
+            question:
+              type: question
+              value: Being able to work through my personal problems in a healthy way.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs7
+            question:
+              type: question
+              value: Thinking of new ways to help people.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs8
+            question:
+              type: question
+              value: Choosing the best solution to a problem.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs9
+            question:
+              type: question
+              value: Planning a trip or event with friends that meets everyone's needs.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs10
+            question:
+              type: question
+              value: Mediating a dispute or argument between two friends.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs11
+            question:
+              type: question
+              value: Getting people to feel relaxed and at ease.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+      - title: Scholarly Creativity
+        items:
+          - id: kdocs12
+            question:
+              type: question
+              value: Writing a non-fiction article for a newspaper, newsletter, or magazine.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs13
+            question:
+              type: question
+              value: Writing a letter to the editor.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs14
+            question:
+              type: question
+              value: Researching a topic using many different types of sources that may not be readily apparent.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs15
+            question:
+              type: question
+              value: Debating a controversial topic from my own perspective.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs16
+            question:
+              type: question
+              value: Responding to an issue in a context-appropriate way.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs17
+            question:
+              type: question
+              value: Gathering the best possible assortment of articles or papers to support a specific point of view.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs18
+            question:
+              type: question
+              value: Arguing a side in a debate that I do not personally agree with.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs19
+            question:
+              type: question
+              value: Analyzing the themes in a good book.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs20
+            question:
+              type: question
+              value: Figuring out how to integrate critiques and suggestions while revising a work.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs21
+            question:
+              type: question
+              value: Being able to offer constructive feedback based on my own reading of a paper.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs22
+            question:
+              type: question
+              value: Coming up with a new way to think about an old debate.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+      - title: Performance Creativity
+        items:
+          - id: kdocs23
+            question:
+              type: question
+              value: Writing a poem.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs24
+            question:
+              type: question
+              value: Making up lyrics to a funny song.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs25
+            question:
+              type: question
+              value: Making up rhymes.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs26
+            question:
+              type: question
+              value: Composing an original song.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs27
+            question:
+              type: question
+              value: Learning how to play a musical instrument.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs28
+            question:
+              type: question
+              value: Shooting a fun video to air on YouTube.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs29
+            question:
+              type: question
+              value: Singing in harmony.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs30
+            question:
+              type: question
+              value: Spontaneously creating lyrics to a rap song.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs31
+            question:
+              type: question
+              value: Playing music in public.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs32
+            question:
+              type: question
+              value: Acting in a play.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+      - title: Mechanical/Scientific Creativity
+        items:
+          - id: kdocs33
+            question:
+              type: question
+              value: Carving something out of wood or similar material.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs34
+            question:
+              type: question
+              value: Figuring out how to fix a frozen or buggy computer.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs35
+            question:
+              type: question
+              value: Writing a computer program.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs36
+            question:
+              type: question
+              value: Solving math puzzles.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs37
+            question:
+              type: question
+              value: Taking apart machines and figuring out how they work.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs38
+            question:
+              type: question
+              value: Building something mechanical (like a robot).
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs39
+            question:
+              type: question
+              value: Helping to carry out or design a scientific experiment.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs40
+            question:
+              type: question
+              value: Solving an algebraic or geometric proof.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs41
+            question:
+              type: question
+              value: Constructing something out of metal, stone, or similar material.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+      - title: Artistic Creativity
+        items:
+          - id: kdocs42
+            question:
+              type: question
+              value: Drawing a picture of something I've never actually seen (like an alien).
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs43
+            question:
+              type: question
+              value: Sketching a person or object.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs44
+            question:
+              type: question
+              value: Doodling/Drawing random or geometric designs.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs45
+            question:
+              type: question
+              value: Making a scrapbook page out of my photographs.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs46
+            question:
+              type: question
+              value: Taking a well-composed photograph using an interesting angle or approach.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs47
+            question:
+              type: question
+              value: Making a sculpture or piece of pottery.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs48
+            question:
+              type: question
+              value: Appreciating a beautiful painting.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs49
+            question:
+              type: question
+              value: Coming up with my own interpretation of a classic work of art.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true
+          - id: kdocs50
+            question:
+              type: question
+              value: Enjoying an art museum.
+            answer:
+              type: likert
+              min: 1
+              max: 5
+              required: true

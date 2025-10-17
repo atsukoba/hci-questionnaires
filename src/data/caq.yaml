@@ -1,0 +1,185 @@
+id: caq
+name: Creative Achievement Questionnaire
+description: A self-report inventory of tangible, real-world creative accomplishments across 10 domains. It measures demonstrated creative achievement rather than potential or self-concept.
+pages:
+  - sections:
+      - title: Visual Arts
+        items:
+          - id: caq_va
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I have taken lessons in this area."
+                - " My work has been critiqued in a class."
+                - " My work has been exhibited in a student show."
+                - " My work has been exhibited in a local art show."
+                - " My work has been exhibited in a juried art show."
+                - " * I have sold a piece of my work."
+                - " My work has been recognized in a national publication."
+      - title: Music
+        items:
+          - id: caq_music
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I play one or more musical instruments."
+                - " I have played in a band or orchestra."
+                - " I have composed a piece of music."
+                - " My musical talent has been critiqued in a local publication."
+                - " I have performed as a soloist."
+                - " * I have been paid to perform."
+                - " My musical composition has been recorded."
+      - title: Dance
+        items:
+          - id: caq_dance
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I have taken lessons in this area."
+                - " I have danced in a public performance."
+                - " I have choreographed a dance."
+                - " My dance performance has been critiqued in a local publication."
+                - " I have danced professionally."
+                - " My choreography has been performed."
+                - " My choreography has been recognized in a national publication."
+      - title: Creative Writing
+        items:
+          - id: caq_writing
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I have written an original short story or poem."
+                - " My work has been published in a school publication."
+                - " I have written a novel or play."
+                - " My work has been published in a local publication."
+                - " * I have won an award or prize for my writing."
+                - " My work has been published in a national publication."
+                - " My work has been reviewed in national publications."
+      - title: Architectural Design
+        items:
+          - id: caq_arch
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I have designed a piece of furniture or clothing."
+                - " I have designed a room or a building."
+                - " My design has been used in a public space."
+                - " My design has been recognized in a local publication."
+                - " * I have won an award or prize for my design."
+                - " My design has been built or constructed."
+                - " My design has been recognized in a national publication."
+      - title: Humor
+        items:
+          - id: caq_humor
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I am known as a humorous person by my friends."
+                - " I have written jokes or a comedy routine."
+                - " I have performed stand-up comedy."
+                - " My humor has been critiqued in a local publication."
+                - " I have been paid to perform comedy."
+                - " I have written for a comedy show."
+                - " My humor has been recognized in a national publication."
+      - title: Inventions
+        items:
+          - id: caq_invention
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I have no training or recognized talent in this area."
+                - " I have invented a new gadget or tool."
+                - " I have built a prototype of my invention."
+                - " My invention has been used by others."
+                - " I have sold one of my inventions to a manufacturing firm."
+                - " * I have applied for a patent for one of my inventions."
+                - " * I have been granted a patent for one of my inventions."
+                - " My invention is currently in production."
+      - title: Scientific Discovery
+        items:
+          - id: caq_science
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I do not have training or recognized ability in this field."
+                - " I often think about ways that scientific problems could be solved."
+                - " I have won a prize at a science fair or other local competition."
+                - " I have received a scholarship based on my work in science or medicine."
+                - " I have been author or coauthor of a study published in a scientific journal."
+                - " * I have won a national prize in the field of science or medicine."
+                - " * I have received a grant to pursue my work in science or medicine."
+                - " My work has been cited by other scientists in national publications."
+      - title: Theater and Film
+        items:
+          - id: caq_theater
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I do not have training or recognized ability in this field."
+                - " I have performed in theater or film."
+                - " My acting abilities have been recognized in a local publication."
+                - " I have directed or produced a theater or film production."
+                - " I have won an award or prize for acting in theater or film."
+                - " I have been paid to act in theater or film."
+                - " I have been paid to direct a theater or film production."
+                - " * My theatrical work has been recognized in a national publication."
+      - title: Culinary Arts
+        items:
+          - id: caq_culinary
+            question:
+              type: question
+              value: "Place a check next to the sentences that apply to you. For items with a *, indicate how many times."
+            answer:
+              type: selection
+              multiple: true
+              items:
+                - " I do not have training or experience in this field."
+                - " I often experiment with recipes."
+                - " My recipes have been published in a local cookbook."
+                - " My recipes have been used in restaurants or other public venues."
+                - " I have been asked to prepare food for celebrities or dignitaries."
+                - " My recipes have won a prize or award."
+                - " I have received a degree in culinary arts."
+                - " * My recipes have been published nationally."

@@ -1,0 +1,15 @@
+id: dtt
+name: Divergent Thinking Test (Alternative Uses Task)
+description: A performance-based task to measure creative potential. Participants are asked to generate as many creative and unusual uses for a common object as possible within a time limit. The free-text responses are typically scored post-hoc on four dimensions Fluency, Flexibility, Originality, and Elaboration.
+pages:
+  - sections:
+      - title: Alternative Uses Task
+        items:
+          - id: dtt_aut
+            question:
+              type: question
+              value: "List as many creative and unusual uses as you can think of for a. You will have minutes."
+            answer:
+              type: input_text
+              label: "Your ideas..."
+              required: true
