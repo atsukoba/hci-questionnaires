@@ -8,6 +8,9 @@ export const currentResponsesAtom = atom<Record<string, any>>({});
 // 現在の質問紙ID
 export const currentQuestionnaireIdAtom = atom<string | null>(null);
 
+// 現在の被験者ID (Flow Builder が生成する URL の ?id= から取得)
+export const currentParticipantIdAtom = atom<string | null>(null);
+
 // 現在のページ
 export const currentPageAtom = atom<number>(0);
 
@@ -27,11 +30,13 @@ export const saveCurrentResponseAtom = atom(
     const responses = get(currentResponsesAtom);
     const startTime = get(sessionStartTimeAtom);
     const completedResponses = get(completedResponsesAtom);
+    const participantId = get(currentParticipantIdAtom);
 
     if (!startTime) return;
 
     // レスポンスデータを構築
     const responseData: ResponseData = {
+      participantId: participantId ?? undefined,
       questionnaireId,
       responses: Object.entries(responses).map(
         ([itemId, value]): Response => ({

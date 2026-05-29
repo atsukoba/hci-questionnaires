@@ -22,6 +22,7 @@ import { useEffect, useState } from "react";
 import {
   completedResponsesAtom,
   currentPageAtom,
+  currentParticipantIdAtom,
   currentResponsesAtom,
   saveCurrentResponseAtom,
   startSessionAtom,
@@ -34,6 +35,7 @@ import {
   exportQuestionnaireResponses,
 } from "../utils/csv-export";
 import { loadQuestionnaire } from "../utils/questionnaire-loader";
+import { applyRandomization } from "../utils/questionnaire-utils";
 
 export function QuestionnairePage() {
   const { questionnaireId } = useParams({ from: "/$questionnaireId" });
@@ -52,6 +54,7 @@ export function QuestionnairePage() {
   const startSession = useSetAtom(startSessionAtom);
   const saveCurrentResponse = useSetAtom(saveCurrentResponseAtom);
   const updateResponse = useSetAtom(updateResponseAtom);
+  const setParticipantId = useSetAtom(currentParticipantIdAtom);
 
   useEffect(() => {
     async function loadData() {
@@ -64,6 +67,9 @@ export function QuestionnairePage() {
       let stepIndex = 0;
       if (typeof window !== "undefined") {
         const params = new URLSearchParams(window.location.search);
+        // 被験者ID を URL から取得して保存
+        const idParam = params.get("id");
+        setParticipantId(idParam && idParam.trim() ? idParam.trim() : null);
         const flowParam = params.get("flow");
         const stepParam = params.get("step");
         if (flowParam && stepParam) {
@@ -84,17 +90,20 @@ export function QuestionnairePage() {
       }
 
       const data = await loadQuestionnaire(targetId);
-      setQuestionnaire(data);
+      // randomize: true のセクションはこの時点で一度だけシャッフルし、
+      // 以降の再描画・検証・進捗で同じ順序を使う
+      const prepared = data ? applyRandomization(data) : null;
+      setQuestionnaire(prepared);
       setLoading(false);
 
       // Start session
-      if (data) {
-        startSession(data.id);
+      if (prepared) {
+        startSession(prepared.id);
       }
     }
 
     loadData();
-  }, [questionnaireId, startSession]);
+  }, [questionnaireId, startSession, setParticipantId]);
 
   const handleResponse = (itemId: string, value: any) => {
     updateResponse(itemId, value);
@@ -117,7 +126,15 @@ export function QuestionnairePage() {
 
     for (const section of page.sections) {
       for (const item of section.items) {
-        if (item.answer.required && !responses[item.id]) {
+        const v = responses[item.id];
+        // 0 や空配列を正しく扱う (0 は有効な回答)
+        const hasValue =
+          v !== undefined &&
+          v !== null &&
+          (typeof v === "number" ||
+            (typeof v === "string" && v.length > 0) ||
+            (Array.isArray(v) && v.length > 0));
+        if (item.answer.required && !hasValue) {
           newErrors[item.id] = "This item is required";
         }
       }

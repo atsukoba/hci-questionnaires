@@ -66,6 +66,16 @@ pages:
               min: 1
               max: 7
               required: true
+          - id: ad_pq7
+            question:
+              type: bipolar
+              left: technical
+              right: human
+            answer:
+              type: likert
+              min: 1
+              max: 7
+              required: true
       - title: Hedonic Quality - Stimulation (HQ-S)
         randomize: true
         items:
@@ -145,8 +155,8 @@ pages:
           - id: ad_hqi1
             question:
               type: bipolar
-              left: human
-              right: technical
+              left: unpresentable
+              right: presentable
             answer:
               type: likert
               min: 1
@@ -248,8 +258,8 @@ pages:
           - id: ad_att4
             question:
               type: bipolar
-              left: unpresentable
-              right: presentable
+              left: discouraging
+              right: motivating
             answer:
               type: likert
               min: 1

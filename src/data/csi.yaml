@@ -13,6 +13,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_enjoy2
             question:
@@ -22,6 +24,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_explore1
             question:
@@ -31,6 +35,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_explore2
             question:
@@ -40,6 +46,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_express1
             question:
@@ -49,6 +57,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_express2
             question:
@@ -58,6 +68,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_immerse1
             question:
@@ -67,6 +79,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_immerse2
             question:
@@ -76,6 +90,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_results1
             question:
@@ -85,6 +101,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_results2
             question:
@@ -94,6 +112,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_collab1
             question:
@@ -103,6 +123,8 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true
           - id: csi_collab2
             question:
@@ -112,4 +134,6 @@ pages:
               type: likert
               min: 1
               max: 10
+              minLabel: Highly disagree
+              maxLabel: Highly agree
               required: true

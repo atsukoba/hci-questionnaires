@@ -13,6 +13,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_pu2
             question:
@@ -22,6 +24,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_pu3
             question:
@@ -31,6 +35,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_pu4
             question:
@@ -40,6 +46,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_pu5
             question:
@@ -49,6 +57,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_pu6
             question:
@@ -58,6 +68,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
       - title: Perceived Ease of Use
         items:
@@ -69,6 +81,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_peou2
             question:
@@ -78,6 +92,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_peou3
             question:
@@ -87,6 +103,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_peou4
             question:
@@ -96,6 +114,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_peou5
             question:
@@ -105,6 +125,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: tam_peou6
             question:
@@ -114,4 +136,6 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true

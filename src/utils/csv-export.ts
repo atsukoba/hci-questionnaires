@@ -14,6 +14,14 @@ export interface CSVRow {
   screenResolution: string;
 }
 
+// localStorage から復元すると Date は ISO 文字列になるため、両方を許容する
+function toISO(value: Date | string | undefined | null): string {
+  if (!value) return "";
+  if (value instanceof Date) return value.toISOString();
+  const parsed = new Date(value);
+  return isNaN(parsed.getTime()) ? String(value) : parsed.toISOString();
+}
+
 export function convertToCSV(responseDataList: ResponseData[]): string {
   const rows: CSVRow[] = [];
 
@@ -27,9 +35,9 @@ export function convertToCSV(responseDataList: ResponseData[]): string {
           ? response.value.join(";")
           : String(response.value),
         responseTime: response.responseTime,
-        timestamp: response.timestamp.toISOString(),
-        startTime: responseData.startTime.toISOString(),
-        endTime: responseData.endTime?.toISOString() || "",
+        timestamp: toISO(response.timestamp),
+        startTime: toISO(responseData.startTime),
+        endTime: toISO(responseData.endTime),
         userAgent: responseData.metadata.userAgent,
         screenResolution: responseData.metadata.screenResolution,
       });

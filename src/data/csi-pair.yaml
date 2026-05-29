@@ -92,7 +92,7 @@ pages:
               value: Which was more important to your creative experience?
             answer:
               type: selection
-              items: ["Expressiveness", "Collaboration"]
+              items: ["Expressiveness", "Results Worth Effort"]
               required: true
           - id: csi_pair12
             question:
@@ -108,7 +108,7 @@ pages:
               value: Which was more important to your creative experience?
             answer:
               type: selection
-              items: ["Immersion", "Collaboration"]
+              items: ["Immersion", "Results Worth Effort"]
               required: true
           - id: csi_pair14
             question:
@@ -124,5 +124,5 @@ pages:
               value: Which was more important to your creative experience?
             answer:
               type: selection
-              items: ["Results Worth Effort", "Enjoyment"]
+              items: ["Results Worth Effort", "Collaboration"]
               required: true

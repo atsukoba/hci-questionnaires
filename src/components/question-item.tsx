@@ -104,10 +104,10 @@ export function QuestionItem({
           <MStack gap="xs">
             <MGroup justify="space-between">
               <MText size="sm" c="dimmed">
-                {a.leftLabel ?? "Low"}
+                {a.minLabel ?? "Low"}
               </MText>
               <MText size="sm" c="dimmed">
-                {a.rightLabel ?? "High"}
+                {a.maxLabel ?? "High"}
               </MText>
             </MGroup>
             <Slider

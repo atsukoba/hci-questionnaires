@@ -8,7 +8,7 @@ pages:
           - id: dtt_aut
             question:
               type: question
-              value: "List as many creative and unusual uses as you can think of for a. You will have minutes."
+              value: "List as many creative and unusual uses as you can think of for a brick. Write down every idea you can, and try to make the uses as different from one another as possible."
             answer:
               type: input_text
               label: "Your ideas..."

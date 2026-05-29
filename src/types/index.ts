@@ -55,7 +55,10 @@ export interface LikertAnswer {
   type: "likert";
   min: number;
   max: number;
-  labels: string[];
+  labels?: string[];
+  // 両端のアンカーラベル (例: "Strongly disagree" / "Strongly agree")
+  minLabel?: string;
+  maxLabel?: string;
   required: boolean;
 }
 
@@ -64,10 +67,11 @@ export interface VASAnswer {
   min: number;
   max: number;
   step: number;
-  showValue: boolean;
+  showValue?: boolean;
   required: boolean;
-  leftLabel?: string;
-  rightLabel?: string;
+  // YAML のキー名 (minLabel / maxLabel) に合わせる
+  minLabel?: string;
+  maxLabel?: string;
 }
 
 export interface NumericalAnswer {
@@ -80,6 +84,8 @@ export interface NumericalAnswer {
 export interface SelectionAnswer {
   type: "selection";
   items: string[];
+  // true の場合は複数選択 (チェックボックス)。回答値は string[] になる
+  multiple?: boolean;
   required: boolean;
 }
 

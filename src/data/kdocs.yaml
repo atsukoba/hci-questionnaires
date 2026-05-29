@@ -13,6 +13,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs2
             question:
@@ -22,6 +24,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs3
             question:
@@ -31,6 +35,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs4
             question:
@@ -40,6 +46,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs5
             question:
@@ -49,6 +57,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs6
             question:
@@ -58,6 +68,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs7
             question:
@@ -67,6 +79,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs8
             question:
@@ -76,6 +90,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs9
             question:
@@ -85,6 +101,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs10
             question:
@@ -94,6 +112,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs11
             question:
@@ -103,6 +123,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
       - title: Scholarly Creativity
         items:
@@ -114,6 +136,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs13
             question:
@@ -123,6 +147,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs14
             question:
@@ -132,6 +158,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs15
             question:
@@ -141,6 +169,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs16
             question:
@@ -150,6 +180,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs17
             question:
@@ -159,6 +191,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs18
             question:
@@ -168,6 +202,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs19
             question:
@@ -177,6 +213,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs20
             question:
@@ -186,6 +224,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs21
             question:
@@ -195,6 +235,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs22
             question:
@@ -204,6 +246,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
       - title: Performance Creativity
         items:
@@ -215,6 +259,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs24
             question:
@@ -224,6 +270,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs25
             question:
@@ -233,6 +281,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs26
             question:
@@ -242,6 +292,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs27
             question:
@@ -251,6 +303,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs28
             question:
@@ -260,6 +314,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs29
             question:
@@ -269,6 +325,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs30
             question:
@@ -278,6 +336,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs31
             question:
@@ -287,6 +347,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs32
             question:
@@ -296,6 +358,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
       - title: Mechanical/Scientific Creativity
         items:
@@ -307,6 +371,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs34
             question:
@@ -316,6 +382,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs35
             question:
@@ -325,6 +393,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs36
             question:
@@ -334,6 +404,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs37
             question:
@@ -343,6 +415,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs38
             question:
@@ -352,6 +426,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs39
             question:
@@ -361,6 +437,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs40
             question:
@@ -370,6 +448,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs41
             question:
@@ -379,6 +459,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
       - title: Artistic Creativity
         items:
@@ -390,6 +472,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs43
             question:
@@ -399,6 +483,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs44
             question:
@@ -408,6 +494,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs45
             question:
@@ -417,6 +505,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs46
             question:
@@ -426,6 +516,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs47
             question:
@@ -435,6 +527,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs48
             question:
@@ -444,6 +538,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs49
             question:
@@ -453,6 +549,8 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true
           - id: kdocs50
             question:
@@ -462,4 +560,6 @@ pages:
               type: likert
               min: 1
               max: 5
+              minLabel: Much less creative
+              maxLabel: Much more creative
               required: true

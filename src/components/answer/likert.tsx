@@ -1,4 +1,4 @@
-import { Button, Group, Stack } from "@mantine/core";
+import { Button, Group, Stack, Text } from "@mantine/core";
 import { useState } from "react";
 import type { LikertAnswer } from "../../types";
 
@@ -22,9 +22,21 @@ export function LikertScale({
     (_, i) => answer.min + i
   );
 
+  const hasAnchors = Boolean(answer.minLabel || answer.maxLabel);
+
   return (
     <Stack gap="sm">
-      <Group justify="center" gap="md">
+      <Group justify="center" gap="md" align="center" wrap="nowrap">
+        {hasAnchors && (
+          <Text
+            size="sm"
+            c="dimmed"
+            ta="right"
+            style={{ flex: 1, minWidth: 0 }}
+          >
+            {answer.minLabel ?? ""}
+          </Text>
+        )}
         {scaleValues.map((scaleValue) => {
           const isSelected = value === scaleValue;
           const isHovered = hoveredValue === scaleValue;
@@ -54,6 +66,11 @@ export function LikertScale({
             </Button>
           );
         })}
+        {hasAnchors && (
+          <Text size="sm" c="dimmed" ta="left" style={{ flex: 1, minWidth: 0 }}>
+            {answer.maxLabel ?? ""}
+          </Text>
+        )}
       </Group>
     </Stack>
   );

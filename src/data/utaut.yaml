@@ -13,6 +13,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_pe2
             question:
@@ -22,6 +24,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_pe3
             question:
@@ -31,6 +35,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
       - title: Effort Expectancy
         items:
@@ -42,6 +48,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_ee2
             question:
@@ -51,6 +59,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_ee3
             question:
@@ -60,6 +70,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
       - title: Social Influence
         items:
@@ -71,6 +83,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_si2
             question:
@@ -80,6 +94,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_si3
             question:
@@ -89,6 +105,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
       - title: Facilitating Conditions
         items:
@@ -100,6 +118,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_fc2
             question:
@@ -109,6 +129,8 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
           - id: utaut_fc3
             question:
@@ -118,4 +140,6 @@ pages:
               type: likert
               min: 1
               max: 7
+              minLabel: Strongly disagree
+              maxLabel: Strongly agree
               required: true
